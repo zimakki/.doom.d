@@ -38,25 +38,6 @@
 
 
 ;; make sure we are not watching too many files so that we are still fast!
-;; MiPasa was watching
-;; Compiling 417 files (.ex)
-;; Compiling lib/mipasa/projects/runner.ex (it's taking more than 10s)
-;; Generated mipasa app
-;; Creating watchers for following 1 folders:
-;;   /Users/zimakki/code/mipasa/mipasa/.elixir_ls/build/test/lib/mipasa/consolidated
-;; Compile took 24719 milliseconds
-;; [ElixirLS Dialyzer] Checking for stale beam files
-;; [ElixirLS WorkspaceSymbols] Indexing...
-;; [ElixirLS WorkspaceSymbols] Module discovery complete
-;; [ElixirLS Dialyzer] Found 471 changed files in 586 milliseconds
-;; [ElixirLS WorkspaceSymbols] 248 callbacks added to index
-;; [ElixirLS WorkspaceSymbols] 1000 modules added to index
-;; [ElixirLS WorkspaceSymbols] 543 types added to index
-;; [ElixirLS Dialyzer] Analysis finished in 5311 milliseconds
-;; Dialyzer analysis is up to date
-;; [ElixirLS Dialyzer] Writing manifest...
-;; [ElixirLS Dialyzer] Done writing manifest in 1417 milliseconds.
-;; [ElixirLS WorkspaceSymbols] 12450 functions added to index
 (after! lsp-mode
   (dolist (match
            '("[/\\\\].direnv$"
