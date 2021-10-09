@@ -54,6 +54,15 @@
 (use-package! lsp-tailwindcss)
 (setq lsp-tailwindcss-major-modes '(rjsx-mode web-mode html-mode css-mode typescript-mode elixir-mode))
 
+(map!
+ ;;keybindings for centaura-tabs
+ "C-{" #'centaur-tabs-backward
+ "C-}" #'centaur-tabs-forward
+
+ ;;other
+ "C-l" #'evil-end-of-line
+ "C-h" #'evil-digit-argument-or-evil-beginning-of-line
+ )
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
