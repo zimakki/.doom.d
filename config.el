@@ -64,6 +64,9 @@
  "C-h" #'evil-digit-argument-or-evil-beginning-of-line
  )
 
+;;index projects so that <spc> p p brings them up
+(setq projectile-project-search-path '("~/code/"))
+
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
