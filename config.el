@@ -56,8 +56,8 @@
 
 (map!
  ;;keybindings for centaura-tabs
- "C-{" #'centaur-tabs-backward
- "C-}" #'centaur-tabs-forward
+ "s-{" #'centaur-tabs-backward
+ "s-}" #'centaur-tabs-forward
 
  ;;other
  "C-l" #'evil-end-of-line
