@@ -62,6 +62,9 @@
  ;;other
  "C-l" #'evil-end-of-line
  "C-h" #'evil-digit-argument-or-evil-beginning-of-line
+
+ ;; cmd-w to close a tab
+ "s-w" #'kill-current-buffer
  )
 
 ;;index projects so that <spc> p p brings them up
