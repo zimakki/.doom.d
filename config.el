@@ -61,7 +61,7 @@
 
  ;;other
  "C-l" #'evil-end-of-line
- "C-h" #'evil-digit-argument-or-evil-beginning-of-line
+ "C-h" #'evil-beginning-of-line
 
  ;; cmd-w to close a tab
  "s-w" #'kill-current-buffer
