@@ -51,8 +51,8 @@
     (add-to-list 'lsp-file-watch-ignored match)))
 
 ;; config tailwindcss
-(use-package! lsp-tailwindcss)
-(setq lsp-tailwindcss-major-modes '(rjsx-mode web-mode html-mode css-mode typescript-mode elixir-mode))
+;; (use-package! lsp-tailwindcss)
+;; (setq lsp-tailwindcss-major-modes '(rjsx-mode web-mode html-mode css-mode typescript-mode elixir-mode))
 
 (map!
  ;;keybindings for centaura-tabs
